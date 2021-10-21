@@ -1,6 +1,7 @@
-#include "C:\Users\szymo\CLionProjects\jipp_git\firstLib\include/lib.h"
+#include "lib.h"
 
-int main(){
+int main()
+{
     itIsWork();
     return 0;
 }
