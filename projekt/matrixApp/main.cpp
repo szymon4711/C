@@ -20,6 +20,14 @@ int main(int argc, char *argv[])
         help();
         exit(1);
     }
+    
+        if(zmienna != "i" && zmienna != "d")
+    {
+        cout << "\n!Wpisano nieodpowiednia tresc!\n";
+        cout << "!Uruchom progam od nowa!\n\n";
+        help();
+        exit(1);
+    }
 
 
     if(strcmp(argv[1], "addMatrix") == 0 )
