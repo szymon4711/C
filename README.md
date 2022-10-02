@@ -1,1 +1,1 @@
-# JiPP2
+C++ projects
